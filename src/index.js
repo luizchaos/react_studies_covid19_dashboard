@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// import NewComponent from './NewComponent'
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <NewComponent name={ 'Teste'}/> */}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
